@@ -14,7 +14,8 @@ class Body extends StatelessWidget {
         children: <Widget>[
           HeaderWithSearchBox(size: size),
           TitleWithMoreButton(title: "Recommended", press: () => {}),
-          RecommendsPlant()
+          RecommendsPlant(),
+          TitleWithMoreButton(title: "Featured Plants", press: () => {}),
         ],
       ),
     );
