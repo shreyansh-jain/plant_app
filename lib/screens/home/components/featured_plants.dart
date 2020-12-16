@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:plant_app/constants.dart';
 
 class FeaturedPlants extends StatelessWidget {
   const FeaturedPlants({
